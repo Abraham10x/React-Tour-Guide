@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+
+.navbar {
+    display: flex;
+    background-color: #F55A5A;
+    justify-content: center;
+    color: #fff;
+    padding: 0.15rem;
+    margin-bottom: 4rem;
+}
+
+.nav-brand {
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 14.4608px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.card--img {
+    width: 146px;
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.card--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card--location-info {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13.2px;
+}
+
+.location-icon {
+    width: 0.65rem;
+}
+
+.country{
+    margin: 0 0.9rem 0 0.5rem;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    text-transform: uppercase;
+}
+
+.country-link {
+    color: #918E9B;
+    cursor: pointer;
+}
+
+.card--title {
+    margin: 7px 0 0 0;
+    text-transform: capitalize;
+}
+
+.card--date {
+    margin-bottom: 0;
+    font-size: 14.34px;
+}
+
+.card--description {
+    margin-top: 11.5px;
+    max-width: 30rem;
+}
